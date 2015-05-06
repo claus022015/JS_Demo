@@ -1,0 +1,33 @@
+
+.. _new_level_1a:
+
+====================
+Page at New Level 1a
+====================
+
+Homeopathic remedies
+
+   .. thumbnail:: /home/nutriben/virtualenvs/sphinx/casperjs-master/casperjs-master/docs/_static/homeopathic_.png
+      :width: 200px
+      :height: 100px
+      :title:
+      
+      homeopathic remedies
+
+Nobel Prize winners
+
+   .. thumbnail:: /home/nutriben/virtualenvs/sphinx/casperjs-master/casperjs-master/docs/_static/nobel-prize_.png
+      :width: 200px
+      :height: 100px
+
+Volkswagen navigation
+
+   .. thumbnail:: /home/nutriben/virtualenvs/sphinx/casperjs-master/casperjs-master/docs/_static/volkswagen_.png
+      :width: 200px
+      :height: 100px
+
+:ref:`Return to top <new_level_1a>`
+
+----
+
+Page navigation

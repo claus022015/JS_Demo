@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>International Data and Methods &mdash; USDA Nutrition Database 1.1.0-DEV documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/jsdemo.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1.0-DEV',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/jsdemo.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    <link rel="shortcut icon" href="../_static/casperjs-favicon.ico"/>
+    <link rel="top" title="USDA Nutrition Database 1.1.0-DEV documentation" href="../index.html" />
+    <link rel="up" title="Features - Core" href="$_02-core.html" />
+    <link rel="next" title="Information Harmonization" href="$_02-core-14-harmonization.html" />
+    <link rel="prev" title="REST Services and Reports" href="$_02-core-12-rest-prov.html" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic&amp;subset=latin,latin-ext">
+    <link rel="stylesheet" title="Dark theme" href="../_static/casperjs-dark.css">
+    <link rel="alternate stylesheet" title="Light theme" href="../_static/casperjs-light.css">
+    <script type="text/javascript" src="../_static/style-switcher.js"></script>
+
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li class="right" >
+          <a href="$_02-core-14-harmonization.html" title="Information Harmonization"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="$_02-core-12-rest-prov.html" title="REST Services and Reports"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">USDA Nutrition Database 1.1.0-DEV documentation</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="$_02-core.html" accesskey="U">Features - Core</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="international-data-and-methods">
+<span id="core-13-internationalization"></span><h1>International Data and Methods<a class="headerlink" href="#international-data-and-methods" title="Permalink to this headline">¶</a></h1>
+<p>This section addresses:</p>
+<dl class="role">
+<dt id="role-Ontomatica defined objective">
+<code class="descname">:Ontomatica defined objective:</code><a class="headerlink" href="#role-Ontomatica defined objective" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">This section applies to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-prime"><span>USDA prime data</span></a>, not to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-select"><span>USDA select data</span></a>. For explanation of USDA prime and USDA select data, see <a class="reference external" href="$_02-core-10-deposition-1-OnLine-OnMessage.html#deposition-workflow">Deposition Workflow</a></p>
+</div>
+<p>Ontomatica proposes, as part of <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-label-project"><span>label project</span></a> , to implement <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-complete-system"><span>complete system</span></a>  for two national <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-authority"><span>authorities</span></a>  - USA and GBR (UK).</p>
+<p>Ontomatica will identify countries.</p>
+<p>Then, for a specific country and for a specific food, Ontomatica will illustrate the distribution of energy (kilocal, kilojoule) as defined by the national authority.</p>
+<p>For example:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="27%" />
+<col width="18%" />
+<col width="18%" />
+<col width="36%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Country</th>
+<th class="head">ISO 3</th>
+<th class="head">UN FAO</th>
+<th class="head">DBpedia</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>United Kingdom</td>
+<td>GBR</td>
+<td>826</td>
+<td>dbpedia:United_Kingdom</td>
+</tr>
+<tr class="row-odd"><td>United States</td>
+<td>USA</td>
+<td>840</td>
+<td>dbpedia:United_States</td>
+</tr>
+</tbody>
+</table>
+<p>Energy illustration is generated using UN FAO <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-infoods"><span>INFOODS</span></a>  and authority values.</p>
+<p>Note below: USDA and GBR use different analytical methods when reporting values.</p>
+<p>Methods</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="nx">EC</span> <span class="nx">carbohydrates</span>     <span class="nx">CHOPL</span> <span class="o">=</span> <span class="p">(</span><span class="nx">SUGAR</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">SUGOH</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span>
+
+<span class="nx">GBR</span> <span class="nx">carbohydrates</span>    <span class="nx">CHOAVLM</span> <span class="o">=</span> <span class="p">(</span><span class="nx">MNSAC</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">DISAC</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">DEXTN</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">STARCHM</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">GLYCM</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span>
+
+<span class="nx">USA</span> <span class="nx">carbohydrates</span> <span class="p">(</span><span class="nx">food</span><span class="o">:</span> <span class="nx">whole</span> <span class="nx">wheat</span><span class="p">)</span>        <span class="nx">CHOCDF</span> <span class="o">=</span> <span class="mi">100</span> <span class="nx">g</span> <span class="o">-</span> <span class="p">((</span><span class="nx">NT</span> <span class="p">[</span><span class="nx">vocal</span><span class="o">:</span><span class="nx">Kjeldahl</span><span class="p">]</span> <span class="nx">x</span> <span class="p">[</span><span class="nx">infoods</span><span class="o">:</span><span class="nx">XPROT</span><span class="p">]</span> <span class="mf">5.83</span> <span class="p">[</span><span class="nx">xsd</span><span class="o">:</span><span class="kr">float</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">WATER</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">FAT</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">ASH</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span><span class="nx">g</span><span class="p">)</span>
+
+<span class="nx">GBR</span> <span class="nx">fiber</span>    <span class="nx">FIBTS</span> <span class="o">=</span> <span class="p">(</span><span class="nx">GLUCNB</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">CELLU</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">HEMCEL</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">INULN</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">LIGN</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">PECT</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span>
+
+<span class="nx">USA</span> <span class="nx">fiber</span>    <span class="nx">FIBTG</span> <span class="p">[</span><span class="nx">aoac</span><span class="o">:</span><span class="mf">978.10</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nx">FIBSOL</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">FIBINS</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span> <span class="o">+</span> <span class="p">(</span><span class="nx">NSP</span> <span class="p">[</span><span class="nx">ncit</span><span class="o">:</span><span class="nx">C38046</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>Legend</p>
+<ul class="simple">
+<li>ALL CAPS = INFOODS_identifier.</li>
+<li>Method format = [method-ontology-prefix : ontology-identifier].</li>
+<li>ncit = NIH NCI thesaurus.</li>
+<li>ncit:C38046 = Unspecified.</li>
+<li>XPROT = protein conversion factor.</li>
+<li>XPROT value = 5.83 for the food: whole wheat.</li>
+<li>XPROT is a floating point number [xsd:float].</li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="$_02-core-12-rest-prov.html"
+                        title="previous chapter">REST Services and Reports</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="$_02-core-14-harmonization.html"
+                        title="next chapter">Information Harmonization</a></p><h3>Index</h3>
+<p><a href="../genindex.html">Thesaurus</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/02_dir/$_02-core-13-internationalization.txt"
+           rel="nofollow">Show Source</a></li>
+   
+  </ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li class="right" >
+          <a href="$_02-core-14-harmonization.html" title="Information Harmonization"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="$_02-core-12-rest-prov.html" title="REST Services and Reports"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">USDA Nutrition Database 1.1.0-DEV documentation</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="$_02-core.html" >Features - Core</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright (&#39;2015, Ontomatica&#39;, &#39;2011-2015 Nicolas Perriault and contributors. CasperJS logo by Jeremy Forveille&#39;).
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
