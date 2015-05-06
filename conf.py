@@ -8,10 +8,10 @@
 #sys.path.insert(0, os.path.abspath('.'))
 
 from datetime import date
-import sys
-import os
-
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if os.environ.get('READTHEDOCS', None) == 'True':
+    skip_pickling = True
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
     import sphinx_rtd_theme
@@ -22,6 +22,9 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # directory relative to this conf file
 CURDIR = os.path.abspath(os.path.dirname(__file__))
 
+# If extensions (or modules to document with auto-doc) are in another directory, add these directories to sys.path here.
+# add custom extensions directory to python path
+#sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_local_extensions'))
 
 # -- General configuration -----------------------------------------------------
 
